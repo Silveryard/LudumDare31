@@ -8,11 +8,7 @@ public class EnemyManager : MonoBehaviour {
     public List<Waypoint> Waypoints;
 
     protected void Awake() {
-        SpawnEnemy();
-        SpawnEnemy();
-        SpawnEnemy();
-        SpawnEnemy();
-        SpawnEnemy();
+        
     }
 
     public void SpawnEnemy() {
